@@ -171,7 +171,7 @@
     teletype: {
       defaults: {
         delay: 100,
-        pause: 5000,
+        pause: 2000,
         text: []
       }
     }
@@ -180,12 +180,10 @@
 
 $('#target').teletype({
     text: [
-      "Android Developer", "Full Stack Web Developer", "Frontend Web Designer" ,"UI/UX Designer"
+      "Android Developer","Frontend Web Developer","Frontend Web Designer","UI/UX Designer"
     ]
   });
   
   $('#cursor').teletype({
-    text: ['|',' '],
-    delay: 0,
-    pause: 800
+    text: ['|'],
   });

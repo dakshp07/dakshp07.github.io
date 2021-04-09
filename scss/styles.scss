@@ -271,14 +271,19 @@ footer {
     text-align: right;
 
     ul {
-        margin: 5px 0 0 0;
-        padding: 0;
+        margin: 5px 15px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        justify-content: center;
     }
 
     li {
         display: inline-block;
         font-size: 1.25em;
         list-style: none;
+    }
+
+    .gitlab{
+        padding-top: 50px;
     }
 
     a {
@@ -299,10 +304,22 @@ footer {
     border: 3px solid #fff;
     border-radius: 30px;
     @include transition();
-
     &:hover {
         color: $base-color;
         background: #fff;
+        text-decoration: none;
+    }
+}
+.btn-rounded{
+    background: #fff;
+    color: $base-color;
+    display: inline;
+    padding: 15px 25px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    &:hover {
+        color: #fff;
+        background: $base-color-hover;
         text-decoration: none;
     }
 }
@@ -383,6 +400,11 @@ footer {
         font-size: 2.25em;
         margin-bottom: 15px;
     }
+    .social{
+        margin: auto;
+        width: 60%;
+        padding: 30px 0px 0px 0px;
+    }
 }
 
 #lead-overlay {
@@ -446,16 +468,25 @@ footer {
 */
 
 #about {
-    padding: 75px 15px;
+    padding: 50px 15px;
+    text-align: center;
     border-bottom: 1px solid $border;
 
     h2 {
         color: $heading;
+        text-align: center;
+        text-align: center;
+        
     }
 
     p {
         color: $text;
-        margin: 0;
+        font-size: 1.3em;
+        margin: 80px;
+        padding: 50px;
+    }
+    .img{
+        border-radius: 80%;
     }
 }
 
@@ -615,7 +646,7 @@ footer {
 
     p, ul {
         margin: 0;
-        color: $text;
+        color: $base-color;
         font-size: 0.9em;
     }
 
@@ -715,7 +746,6 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: darken($background-alt, 5%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
