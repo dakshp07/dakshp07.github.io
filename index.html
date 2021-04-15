@@ -364,7 +364,10 @@
         <div id="contact-form">
             <form action="https://formspree.io/f/mvodovla" method="POST">
             <label>
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+            </label>
+            <label>
+                    <input type="name" name="_name" placeholder="Your name" required>
             </label>
             <label>
                     <input type="email" name="_replyto" placeholder="Your email" required>
@@ -372,7 +375,7 @@
             <label>
                     <textarea name="message"placeholder="Your message" required></textarea>
             </label>
-            <button type="submit">Send</button>
+            <button type="submit">Send Message</button>
             </form>
         </div>
         <!-- End #contact-form -->
