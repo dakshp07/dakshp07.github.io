@@ -478,12 +478,13 @@ footer {
 
     h2 {
         color: $heading;
-        text-align: center;
+        font-weight: bold;
     }
 
     p {
         color: $text;
         margin: 80px;
+        font-weight: 500;
         padding: 100px 0px 0px 0px;
     }
     .img{
@@ -504,6 +505,7 @@ footer {
 
     h2 {
         color: $heading;
+        font-weight: bold;
     }
 }
 
@@ -547,15 +549,15 @@ footer {
 
     h3 {
         font-size: 1.5em;
-        font-weight: 300;
-        color: $heading;
+        font-weight: 500;
+        color: $base-color;
         display: inline-block;
         margin: 0;
     }
 
     h4 {
         font-size: 1.2em;
-        font-weight: 300;
+        font-weight: 500;
         color: #7e8890;
         margin: 0 0 15px 0;
     }
@@ -600,6 +602,7 @@ footer {
     top: 10px;
     font-weight: 300;
     color: #374054;
+    font-weight: 500;
 }
 
 /*
@@ -616,6 +619,7 @@ footer {
     h2 {
         color: $heading;
         margin-bottom: 50px;
+        font-weight: bold;
     }
 }
 
@@ -627,10 +631,10 @@ footer {
     text-align: left;
 
     h3 {
-        font-weight: 500;
+        font-weight: 700;
         float: left;
         margin: 0;
-        color: $heading;
+        color: $base-color;
     }
 
     span {
@@ -670,6 +674,7 @@ footer {
     h2 {
         color: $heading;
         margin-bottom: 50px;
+        font-weight: bold;
     }
 }
 
@@ -693,10 +698,16 @@ footer {
     margin-left: 300px;
     padding: 15px;
 
+    a{
+        color: $base-color;
+        font-weight: 700;
+    }
+
     h3 {
         font-size: 1.5em;
         font-weight: 300;
-        color: $heading;
+        color: $base-color;
+        font-weight: 700;
         margin: 0 0 15px 0;
     }
 
@@ -733,6 +744,7 @@ footer {
     h2 {
         color: $heading;
         margin-bottom: 50px;
+        font-weight: bold;
     }
 
     ul {
@@ -767,7 +779,7 @@ footer {
     h2 {
         margin: 0 0 15px 0;
         color: #fff;
-        font-weight: 500;
+        font-weight: bold;
     }
 }
 
