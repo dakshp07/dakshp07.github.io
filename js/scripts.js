@@ -180,7 +180,7 @@
 
 $('#target').teletype({
     text: [
-      "Android Developer","Frontend Web Developer","Frontend Web Designer","UI/UX Designer"
+      "Android Developer","Web Developer","UI/UX Designer"
     ]
   });
   
