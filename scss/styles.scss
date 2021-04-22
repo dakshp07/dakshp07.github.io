@@ -388,7 +388,7 @@ footer {
     $slides: 3;
     $typing-duration: 5s;
     $tab-letters: 16 23 12; //number of characters in each paragraph
-    $slider-font-size: 3rem;
+    $slider-font-size: 2.1rem;
     @keyframes cursor {
         from, to { border-color: transparent; }
         50% { border-color: black; }
@@ -405,7 +405,6 @@ footer {
       }
       
       .#{$slider-name} {
-        font-family: Consolas, monospace;
         font-weight: bold;
         text-align: center;
         white-space: nowrap;
