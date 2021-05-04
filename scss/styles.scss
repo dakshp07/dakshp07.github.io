@@ -21,10 +21,11 @@
         6. Experience Styles
         7. Education Styles
         8. Project Styles
-        9. Skills Styles
-        10. Contact Styles
-        11. Optional Section Styles
-        12. Media Queries
+        9. Open Source Styles
+        10. Skills Styles
+        11. Contact Styles
+        12. Optional Section Styles
+        13. Media Queries
 */
 
 /*
@@ -385,9 +386,9 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
     $slider-name: typing-slider;
-    $slides: 3;
+    $slides: 4;
     $typing-duration: 5s;
-    $tab-letters: 16 23 12; //number of characters in each paragraph
+    $tab-letters: 23 15 16 25; //number of characters in each paragraph
     $slider-font-size: 2.1rem;
     @keyframes cursor {
         from, to { border-color: transparent; }
@@ -789,16 +790,89 @@ footer {
 #more-projects {
     display: none;
 }
+/*
+    -------------------------------
+    ----- 9. Open Source -----
+    -------------------------------
+*/
+#contribution {
+    #projects {
+        padding: 50px 15px;
+        border-bottom: 1px solid $border;
+        text-align: center;
+        background: #fff;
+    
+        h2 {
+            color: $heading;
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+    }
+    
+    .project {
+        position: relative;
+        max-width: 900px;
+        margin: 0 auto 30px auto;
+        overflow: hidden;
+        background: #fff;
+        border-radius: 4px;
+    }
+    
+    .project-image {
+        float: left;
+    }
+    
+    .project-info {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 300px;
+        padding: 15px;
+    
+        a{
+            color: $base-color;
+            font-weight: 700;
+        }
+    
+        h3 {
+            font-size: 1.5em;
+            font-weight: 300;
+            color: $base-color;
+            font-weight: 700;
+            margin: 0 0 15px 0;
+        }
+    
+        p {
+            color: $text;
+            margin: 0 0 15px 0;
+            font-size: 0.9em;
+        }
+    }
+    
+    .no-image {
+        .project-info {
+            position: relative;
+            margin: 0;
+            padding: 30px 15px;
+            transform: none;
+        }
+    }
+    
+    #more-projects {
+        display: none;
+    }
+}
 
 /*
     -------------------------------
-    ----- 9. Skills Styles -----
+    ----- 10. Skills Styles -----
     -------------------------------
 */
 
 #skills {
     padding: 50px 15px;
     text-align: center;
+    background: #f2f2f5;
 
     h2 {
         color: $heading;
@@ -826,7 +900,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 10. Contact Styles -----
+    ----- 11. Contact Styles -----
     -------------------------------
 */
 
@@ -891,7 +965,7 @@ footer {
 
 /*
     ---------------------------------------
-    ----- 11. Optional Section Styles -----
+    ----- 12. Optional Section Styles -----
     ---------------------------------------
 */
 
@@ -939,7 +1013,7 @@ footer {
 
 /*
     -----------------------------
-    ----- 12. Media Queries -----
+    ----- 13. Media Queries -----
     -----------------------------
 */
 
