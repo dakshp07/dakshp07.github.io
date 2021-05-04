@@ -86,7 +86,7 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Poppins";
     font-size: 16px;
 
     &.active {
@@ -294,7 +294,7 @@ footer {
     a {
         display: block;
         color: $text;
-        padding: 10px;
+        padding: 8px;
 
         &:hover {
             color: $base-color;
@@ -372,7 +372,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/wp6344097.jpg);
+    background: url(../images/retro-big-sun-sp-1920x1080.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
