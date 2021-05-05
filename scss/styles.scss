@@ -23,9 +23,10 @@
         8. Project Styles
         9. Open Source Styles
         10. Skills Styles
-        11. Contact Styles
-        12. Optional Section Styles
-        13. Media Queries
+        11. Achievement Styles
+        12. Contact Styles
+        13. Optional Section Styles
+        14. Media Queries
 */
 
 /*
@@ -900,7 +901,63 @@ footer {
 
 /*
     -------------------------------
-    ----- 11. Contact Styles -----
+    ----- 11. Achievement Styles -----
+    -------------------------------
+*/
+
+#achievement {
+    padding: 50px 15px 50px 15px;
+    text-align: center;
+    background: #fff;
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+        font-weight: bold;
+        position: relative;
+        display: inline-block;
+    }
+                .row {
+                    margin-left: -15px;
+                    margin-right: -15px;
+        
+                
+        }
+        .achievement-div {
+            font-weight: 300;
+            text-align: center;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+    
+            
+        }
+        ul {
+            display: block;
+            list-style-type: none;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        
+            li {
+                display: list-item;
+            }   
+        }
+        #content {
+            color: $heading;
+            font-weight: 300;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+
+/*
+    -------------------------------
+    ----- 12. Contact Styles -----
     -------------------------------
 */
 
