@@ -310,8 +310,6 @@ footer {
     border-radius: 30px;
     @include transition();
     &:hover {
-        color: $base-color;
-        background: #fff;
         text-decoration: none;
     }
 }
@@ -323,8 +321,6 @@ footer {
     border: 3px solid #fff;
     border-radius: 30px;
     &:hover {
-        color: #fff;
-        background: $base-color-hover;
         text-decoration: none;
     }
 }
